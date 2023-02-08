@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Fira+Sans+Extra+Condensed:ital,wght@1,700&family=Philosopher:wght@700&display=swap");
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Noto sans TC", sans-serif;
+    letter-spacing: 1px;
+    color: rgb(10, 10, 10);
+    line-height: 1.4;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #746c6c
+}
+
+.wrapper-content {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+.header-content {
+    background-color: #eedcac;
+    height: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav {
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.logo {
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-size: 24px;
+    color:rgb(12, 12, 12);
+    text-decoration: underline;
+}
+
+.link-text:hover {
+    transition: all 0.2s;
+    color: #0a0a0a;
+    letter-spacing: 3px;
+}
+
+.primary-content {
+    background-color: #fff5da;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+  
+.wrapper-primary-text {
+    width: 40%;
+}
+
+.primary_main-img {
+    width: 25%;
+    height: 100%;
+    box-shadow: 20px 20px 10px ;
+    border: solid;
+}
+
+.section_title {
+    font-family: "Philosopher";
+    font-weight: bold;
+    color: black;
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+
+.primary_title {
+    font-size: 72px;
+    margin-bottom: 20px;
+}
+
+.primary_title > span {
+    color: white;
+    text-shadow: -1px -1px 0 #111010, 1px -1px 0 #0b0b0c, -1px 1px 0 #0d0e0d, 1px 1px 0 #0f0f0f;    
+}
+
+.primary_text {
+    margin-bottom: 25px;
+}
+
+.link-button {
+    display: inline-block;
+    background-color: #000;
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.primary_link-button {
+    margin-bottom: 20px;
+}
+
+.link-button:hover {
+    background-color: #ff8000;
+    transition: all 0.2s;
+}
+
+.primary_social {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.primary_social > img {
+    width: 25px;
+    height: 25px;
+}
+
+.secondary-content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper-selected-works {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper-work > img {
+    width: 100%;
+    /* -webkit-filter:grayscale(1); */
+}
+
+.calen {
+    padding-top: 13px;
+    margin-bottom: 15%;
+}
+
+.wrapper-work-text {
+    padding-left: 40%;
+}
+.secondary-title {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.work_title {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.work_position {
+    color: #ff8000;
+    height: 46px;
+    margin-bottom: 10px;
+}
+
+.work_link-button {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.wrapper-about {
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.about_img {
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 300px;
+}
+
+.wrapper-about-text {
+    width: 60%;
+}
+
+.about_title {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.about_skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    margin: 5px 0;
+}
+
+.about_skill-item {
+    margin: 2px 60px 2px 0;
+}
+
+.about_link-button {
+    margin-top: 30px;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+.footer-content {
+    background-color: #eedcac;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav-list {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-nav-list_title {
+    font-weight: bold;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+
+.footer-nav-list_text {
+    margin-bottom: 15px;
+    font-size: 13px;
+    font-weight: bold;
+}
